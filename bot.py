@@ -1,7 +1,8 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "MTQ3NDEyOTU2ODMwNTUxMjYyMg.GMCdjh.EITOJ4dAOcr1Nup6NrTAZUkX0bQertMXaSkViY"
+import os
+TOKEN = os.getenv("TOKEN")
 ROLE_NAME = "EVsiurek"
 
 intents = discord.Intents.default()
