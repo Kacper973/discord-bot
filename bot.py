@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 import os
-TOKEN = os.getenv("MTQ3NDEyOTU2ODMwNTUxMjYyMg.GMCdjh.EITOJ4dAOcr1Nup6NrTAZUkX0bQertMXaSkViY")
+TOKEN = os.getenv("TOKEN")
 ROLE_NAME = "EVsiurek"
 
 intents = discord.Intents.default()
@@ -38,5 +38,6 @@ async def weryfikacja(ctx):
         color=discord.Color.green()
     )
     await ctx.send(embed=embed, view=VerifyView())
+
 
 bot.run(TOKEN) 
