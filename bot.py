@@ -41,3 +41,4 @@ async def weryfikacja(ctx):
 
 
 bot.run(TOKEN) 
+
